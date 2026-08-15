@@ -120,20 +120,21 @@ Configure Azure Firewall and DNAT to control and publish access to the web appli
 
 Detailed configuration: [Configure_Firewall.md](Configure_Firewall.md)
 
-![Azure Firewall](screensots/firewall.png)
-![Azure Firewall](screensots/firewall1.png)
-![Azure Firewall](screensots/firewall2.png)
-![Azure Firewall](screensots/firewall3.png)
-![Azure Firewall](screensots/firewall4.png)
-![Azure Firewall](screensots/firewall5.png)
-![Azure Firewall](screensots/firewall6.png)
-![Azure Firewall](screensots/firewall7.png)
-![Azure Firewall](screensots/firewall8.png)
-![Azure Firewall](screensots/firewall9.png)
-![Azure Firewall](screensots/firewall10.png)
-![Azure Firewall](screensots/firewall11.png)
-![Azure Firewall](screensots/firewall12.png)
-![Azure Firewall](screensots/firewall13.png)
+
+![Azure Firewall](screenshots/firewall.png)
+![Azure Firewall](screenshots/firewall1.png)
+![Azure Firewall](screenshots/firewall2.png)
+![Azure Firewall](screenshots/firewall3.png)
+![Azure Firewall](screenshots/firewall4.png)
+![Azure Firewall](screenshots/firewall5.png)
+![Azure Firewall](screenshots/firewall6.png)
+![Azure Firewall](screenshots/firewall7.png)
+![Azure Firewall](screenshots/firewall8.png)
+![Azure Firewall](screenshots/firewall9.png)
+![Azure Firewall](screenshots/firewall10.png)
+![Azure Firewall](screenshots/firewall11.png)
+![Azure Firewall](screenshots/firewall12.png)
+![Azure Firewall](screenshots/firewall13.png)
 
 ---
 

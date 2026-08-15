@@ -32,6 +32,14 @@ A network-segmented web application deployed on **Microsoft Azure** using Azure 
 - Azure Bastion for administrative access
 - Restricted source IP access
 
+
+## Architecture
+
+The following diagram shows the architecture of the Azure Secure Web Application.
+
+![Azure Secure Web Application Architecture](screenshots/architecture.png)
+
+
 ## Deployment
 
 ### Step 1 — Create Virtual Network
@@ -40,7 +48,11 @@ Create the Azure Virtual Network and configure the required address space and su
 
 Detailed configuration: [VNet.md](VNet.md)
 
-![Azure Virtual Network](ss/vnet.png)
+![Azure Virtual Network](screenshots/vnet.png)
+![Azure Virtual Network](screenshots/vnet1.png)
+![Azure Virtual Network](screenshots/vnet2.png)
+![Azure Virtual Network](screenshots/vnet3.png)
+![Azure Virtual Network](screenshots/vnet4.png)
 
 ---
 
@@ -50,7 +62,15 @@ Create an Ubuntu virtual machine inside the configured network and subnet.
 
 Detailed configuration: [Virtual_Machine.md](Virtual_Machine.md)
 
-![Azure Virtual Machine](ss/virtual-machine.png)
+![Azure Virtual Machine](screenshots/virtual-machine.png)
+![Azure Virtual Machine](screenshots/virtual-machine1.png)
+![Azure Virtual Machine](screenshots/virtual-machine2.png)
+![Azure Virtual Machine](screenshots/virtual-machine3.png)
+![Azure Virtual Machine](screenshots/virtual-machine4.png)
+![Azure Virtual Machine](screenshots/virtual-machine5.png)
+![Azure Virtual Machine](screenshots/virtual-machine6.png)
+![Azure Virtual Machine](screenshots/virtual-machine7.png)
+![Azure Virtual Machine](screenshots/virtual-machine8.png)
 
 ---
 
@@ -60,7 +80,12 @@ Configure Azure Bastion to connect securely to the private virtual machine.
 
 Detailed configuration: [Connect_Bastion.md](Connect_Bastion.md)
 
-![Azure Bastion](ss/bastion.png)
+![Azure Bastion](screenshots/bastion.png)
+![Azure Bastion](screenshots/bastion1.png)
+![Azure Bastion](screenshots/bastion2.png)
+![Azure Bastion](screenshots/bastion3.png)
+![Azure Bastion](screenshots/bastion4.png)
+
 
 ---
 
@@ -70,7 +95,12 @@ Install Nginx on the Ubuntu virtual machine and verify that the web server is ru
 
 Detailed configuration: [Install_Nginx.md](Install_Nginx.md)
 
-![Nginx Installation](ss/nginx-installation.png)
+![Nginx Installation](screenshots/nginx-installation.png)
+![Nginx Installation](screenshots/nginx-installation1.png)
+![Nginx Installation](screenshots/nginx-installation2.png)
+![Nginx Installation](screenshots/nginx-installation3.png)
+![Nginx Installation](screenshots/nginx-installation4.png)
+![Nginx Installation](screenshots/nginx-installation5.png)
 
 ---
 
@@ -80,7 +110,7 @@ Create and configure the HTML page that will be served by Nginx.
 
 Detailed configuration: [Create_HTML_Nginx.md](Create_HTML_Nginx.md)
 
-![Web Application](ss/web-application.png)
+![Web Application](screenshots/web-application.png)
 
 ---
 
@@ -90,7 +120,20 @@ Configure Azure Firewall and DNAT to control and publish access to the web appli
 
 Detailed configuration: [Configure_Firewall.md](Configure_Firewall.md)
 
-![Azure Firewall](ss/firewall.png)
+![Azure Firewall](screensots/firewall.png)
+![Azure Firewall](screensots/firewall1.png)
+![Azure Firewall](screensots/firewall2.png)
+![Azure Firewall](screensots/firewall3.png)
+![Azure Firewall](screensots/firewall4.png)
+![Azure Firewall](screensots/firewall5.png)
+![Azure Firewall](screensots/firewall6.png)
+![Azure Firewall](screensots/firewall7.png)
+![Azure Firewall](screensots/firewall8.png)
+![Azure Firewall](screensots/firewall9.png)
+![Azure Firewall](screensots/firewall10.png)
+![Azure Firewall](screensots/firewall11.png)
+![Azure Firewall](screensots/firewall12.png)
+![Azure Firewall](screensots/firewall13.png)
 
 ---
 

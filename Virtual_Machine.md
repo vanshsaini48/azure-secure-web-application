@@ -17,4 +17,12 @@ The following settings are configured:
 
 ## Screenshot
 
-![Azure Virtual Machine Configuration](screenshots/virtual-machine.png)
+![Azure Virtual Machine](screenshots/virtual-machine.png)
+![Azure Virtual Machine](screenshots/virtual-machine1.png)
+![Azure Virtual Machine](screenshots/virtual-machine2.png)
+![Azure Virtual Machine](screenshots/virtual-machine3.png)
+![Azure Virtual Machine](screenshots/virtual-machine4.png)
+![Azure Virtual Machine](screenshots/virtual-machine5.png)
+![Azure Virtual Machine](screenshots/virtual-machine6.png)
+![Azure Virtual Machine](screenshots/virtual-machine7.png)
+![Azure Virtual Machine](screenshots/virtual-machine8.png)

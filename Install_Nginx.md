@@ -18,3 +18,9 @@ The following steps are performed:
 ## Screenshot
 
 ![Nginx Installation](screenshots/nginx-installation.png)
+![Nginx Installation](screenshots/nginx-installation1.png)
+![Nginx Installation](screenshots/nginx-installation2.png)
+![Nginx Installation](screenshots/nginx-installation3.png)
+![Nginx Installation](screenshots/nginx-installation4.png)
+![Nginx Installation](screenshots/nginx-installation5.png)
+

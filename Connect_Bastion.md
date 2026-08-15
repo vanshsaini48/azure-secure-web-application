@@ -15,4 +15,9 @@ The following steps are performed:
 
 ## Screenshot
 
-![Azure Bastion Connection](screenshots/bastion.png)
+
+![Azure Bastion](screenshots/bastion.png)
+![Azure Bastion](screenshots/bastion1.png)
+![Azure Bastion](screenshots/bastion2.png)
+![Azure Bastion](screenshots/bastion3.png)
+![Azure Bastion](screenshots/bastion4.png)

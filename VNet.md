@@ -17,4 +17,8 @@ The following network components are configured:
 
 ## Screenshot
 
-![Azure Virtual Network Configuration](screenshots/vnet.png)
+![Azure Virtual Network](screenshots/vnet.png)
+![Azure Virtual Network](screenshots/vnet1.png)
+![Azure Virtual Network](screenshots/vnet2.png)
+![Azure Virtual Network](screenshots/vnet3.png)
+![Azure Virtual Network](screenshots/vnet4.png)

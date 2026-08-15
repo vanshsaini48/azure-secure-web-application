@@ -17,4 +17,19 @@ The following steps are performed:
 
 ## Screenshot
 
-![Azure Firewall DNAT Configuration](screenshots/firewall.png)
+
+![Azure Firewall](screensots/firewall.png)
+![Azure Firewall](screensots/firewall1.png)
+![Azure Firewall](screensots/firewall2.png)
+![Azure Firewall](screensots/firewall3.png)
+![Azure Firewall](screensots/firewall4.png)
+![Azure Firewall](screensots/firewall5.png)
+![Azure Firewall](screensots/firewall6.png)
+![Azure Firewall](screensots/firewall7.png)
+![Azure Firewall](screensots/firewall8.png)
+![Azure Firewall](screensots/firewall9.png)
+![Azure Firewall](screensots/firewall10.png)
+![Azure Firewall](screensots/firewall11.png)
+![Azure Firewall](screensots/firewall12.png)
+![Azure Firewall](screensots/firewall13.png)
+

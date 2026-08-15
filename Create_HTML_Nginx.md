@@ -16,4 +16,4 @@ The following steps are performed:
 
 ## Screenshot
 
-![HTML Web Page](screenshots/web-application.png)
+![Web Application](screenshots/web-application.png)

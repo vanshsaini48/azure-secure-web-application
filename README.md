@@ -1,6 +1,6 @@
 # Azure Secure Web Application
 
-A network-segmented web application deployed on Microsoft Azure using Azure Virtual Network, Azure Firewall, Azure Bastion, Network Security Groups, and a private Linux virtual machine running Nginx.
+A network-segmented web application deployed on **Microsoft Azure** using Azure Virtual Network, Azure Firewall, Azure Bastion, Network Security Groups, and a private Linux virtual machine running Nginx.
 
 ## Project Objectives
 
@@ -32,9 +32,71 @@ A network-segmented web application deployed on Microsoft Azure using Azure Virt
 - Azure Bastion for administrative access
 - Restricted source IP access
 
+## Deployment
+
+### Step 1 — Create Virtual Network
+
+Create the Azure Virtual Network and configure the required address space and subnet.
+
+Detailed configuration: [VNet.md](VNet.md)
+
+![Azure Virtual Network](ss/vnet.png)
+
+---
+
+### Step 2 — Create Virtual Machine
+
+Create an Ubuntu virtual machine inside the configured network and subnet.
+
+Detailed configuration: [Virtual_Machine.md](Virtual_Machine.md)
+
+![Azure Virtual Machine](ss/virtual-machine.png)
+
+---
+
+### Step 3 — Connect Using Azure Bastion
+
+Configure Azure Bastion to connect securely to the private virtual machine.
+
+Detailed configuration: [Connect_Bastion.md](Connect_Bastion.md)
+
+![Azure Bastion](ss/bastion.png)
+
+---
+
+### Step 4 — Install Nginx
+
+Install Nginx on the Ubuntu virtual machine and verify that the web server is running.
+
+Detailed configuration: [Install_Nginx.md](Install_Nginx.md)
+
+![Nginx Installation](ss/nginx-installation.png)
+
+---
+
+### Step 5 — Create HTML Web Page
+
+Create and configure the HTML page that will be served by Nginx.
+
+Detailed configuration: [Create_HTML_Nginx.md](Create_HTML_Nginx.md)
+
+![Web Application](ss/web-application.png)
+
+---
+
+### Step 6 — Configure Azure Firewall
+
+Configure Azure Firewall and DNAT to control and publish access to the web application hosted on the private VM.
+
+Detailed configuration: [Configure_Firewall.md](Configure_Firewall.md)
+
+![Azure Firewall](ss/firewall.png)
+
+---
+
 ## Security Validation
 
-The project will validate:
+The project validates:
 
 - Direct access to the private VM
 - Authorized access through Azure Firewall
@@ -45,25 +107,22 @@ The project will validate:
 
 ## Project Structure
 
+```text
 azure-secure-web-application/
-├── architecture/
-├── web-app/
-├── scripts/
-├── firewall/
-├── networking/
-├── bastion/
-├── screenshots/
+│
 ├── .gitignore
-└── README.md
-
-## Future Improvements
-
-- HTTPS/TLS
-- Azure Application Gateway / WAF
-- Azure Monitor
-- Log Analytics
-- Microsoft Defender for Cloud
-- Azure Key Vault
-- Managed Identity
-- Terraform
-
+├── README.md
+├── VNet.md
+├── Virtual_Machine.md
+├── Connect_Bastion.md
+├── Install_Nginx.md
+├── Create_HTML_Nginx.md
+├── Configure_Firewall.md
+│
+└── screenshots/
+    ├── vnet.png
+    ├── virtual-machine.png
+    ├── bastion.png
+    ├── nginx-installation.png
+    ├── web-application.png
+    └── firewall.png
